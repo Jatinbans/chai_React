@@ -1,9 +1,9 @@
-
-
+import Chai from "./Chai.jsx"
+//component aa html retrun krda
 function App() {
 
   return (
-    <h1>chai aur react | Jatin</h1>
+   <Chai/>
   )
 }
 
