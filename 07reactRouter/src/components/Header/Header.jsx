@@ -1,6 +1,7 @@
 import React from 'react'
 //link tag is used in place of a tag because a tag refreshes the page but in react we dont do this 
 import {Link, NavLink} from 'react-router-dom'
+import Home from '../Home/Home';
  
 export default function Header() {
     return (
@@ -35,6 +36,7 @@ export default function Header() {
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             <li>
                                 <NavLink
+                                //isActive is a variable
                                     className={({isActive}) =>
                                     `block py-2 pr-4 
                                     pl-3 duration-200 
